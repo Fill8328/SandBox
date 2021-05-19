@@ -1,0 +1,13 @@
+package fill.jma;
+
+public class Main {
+
+    public static void main(String[] args) {
+        char cc='a';
+        int i=10, i1=0;          //выводит 10 символов
+        while(i>i1){
+            i1++;
+            System.out.println(cc++);
+        }
+    }
+}
