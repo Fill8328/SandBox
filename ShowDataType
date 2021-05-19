@@ -1,0 +1,28 @@
+package fill.jma;
+
+public class Main {
+
+    public static void main(String[] args) {
+        boolean a=true;
+        boolean b=false;
+        System.out.println(a);
+        System.out.println(b);
+	    char c =60;
+        char cc='f';
+        System.out.println(c);
+        System.out.println(cc);
+        byte t=127;
+        System.out.println(t);
+        int t1=1 ,t0=0;
+        System.out.println(" int 0/1=" + t0/t1);
+       // System.out.println(" int 1/0=" + t1/t0); // нельзя на ноль делить с int
+        long r4=922337203;
+
+        double d=33333333.4343333;
+        double d0=0.0, d1=1;
+        System.out.println(" double 0/1=" + d0/d1);
+        System.out.println(" double 1/0=" + d1/d0); // с double можно делить на ноль  выдает Infinity
+
+
+    }
+}
