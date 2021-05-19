@@ -1,0 +1,26 @@
+package fill.jma;
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        long E1 = System.currentTimeMillis();
+        char c = '_';
+        long x = 0, i = 0;
+        String r = "Hello";
+        x = (int) c;
+
+        while (i < 10000000000L) {
+            i++;
+        }
+        System.out.println(i);
+        System.out.println(x + r);
+        long E2 = System.currentTimeMillis();
+        double min = (E2 - E1) / (60 * 1000);
+        String formattedDouble = String.format("%.5f", min);
+        System.out.print("time for settlemens " + (E2 - E1) + " milsec/" + ((E2 - E1) / 1000) + " sec/");
+        String result = String.format("%1.3f", min);
+        System.out.print(min + " min/");
+    }
+}
